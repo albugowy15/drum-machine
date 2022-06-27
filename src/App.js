@@ -173,7 +173,7 @@ function App() {
   return (
     <div className="grid h-screen place-items-center">
       {setKeyVolume()}
-      <div className="bg-[#B1CF5F] rounded shadow-2xl shadow-slate-600 p-4 w-[500px] flex items-center justify-between">
+      <div className="bg-[#B1CF5F] rounded shadow-2xl shadow-slate-600 p-4 flex gap-5 items-center justify-between ">
         <Keyboard power={power} play={play} sounds={sounds} />
         <DrumControl
           stop={stop}
